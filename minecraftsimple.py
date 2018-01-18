@@ -1,3 +1,26 @@
+print("""Welcome to Minecraft! In this program you can mine different blocks and craft tools.
+
+You start with no blocks at all.
+However, you can mine wood with your hand.
+With that wood you can craft a wooden pickaxe.
+The wooden pickaxe can mine stone as well as wood and is able to mine more blocks than without it.
+With the stone and wood you can craft a stone pickaxe.
+With each new pickaxe you can mine blocks faster and the next tier of blocks.
+
+There are four commands in the game.
+
+Type mine(*name of block*, *pickaxe you are using*) to mine a block.
+
+
+Type craft_pickaxe(*name of pickaxe*) to craft a pickaxe.
+You must have the necessary resources to craft a pickaxe or it will not work.
+
+Type craft_sword(*name of sword*) to craft a sword.
+You must have the necessary resources to craft a sword or it will not work.
+
+Type inventory() to access your inventory.
+This will tell you what resources you have.""")
+
 class Block(object):
     """Block defines the type of block"""
     def __init__(self, name, amount):
@@ -48,9 +71,9 @@ def mine(block, pickaxe):
         block.amount += pickaxe.ability
     elif pickaxe.amount == 0:
         block.amount += 1
-        print("You don't have that pick.  You mine with your hand instead.")
+        print("You don't have that pickaxe.  You mine with your hand instead.")
     else:
-        print("You can/'t use a sword to mine a pickaxe")
+        print('You can\'t mine with a sword.')
     print(f'you have {block.amount} blocks of {block.name}')
 """The mine function allows the player to mine specfic blocks by typing mine(name of block).  When a player mines a block, the block.amount for that block increases."""
 
