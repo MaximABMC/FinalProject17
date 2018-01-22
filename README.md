@@ -1,2 +1,6 @@
 # FinalProject17
-The game is based on minecraft. The user will type to mine certain blocks. These blocks will then be sent to their inventory. When the player has enough wood blocks in their inventory they will be able to craft a wood pickaxe. This pickaxe will mine automatically for them. Eventually they will have enough blocks to craft a stone pickaxe. The stone pickaxe mines more blocks per second than the wood pickaxe. Eventually the player will craft a iron pickaxe then a gold one and finally a diamond pickaxe. Once the diamond pickaxe is unlocked the player will be able to fight the Ender Dragon. The Ender Dragon is the final boss of the game and defeating it is how you win.
+The game is based on the crafting system in Minecraft.  The game has blocks and pickaxes.  The player starts with no blocks and only their hand to use as a pickaxe.  However they can mine wood.  The wood is then sent to the player's inventory With that wood they can craft a wooden pickaxe.  The wooden pickaxe mines faster than just the player's hand.  Eventually the player will craft a stone pickaxe.  The stone pickaxe is even more powerful than the wooden pickaxe.  There are multiple tiers of pickaxes for the player to craft.  The objective of the game is to craft the final pickaxe of the game, the diamond pickaxe. 
+
+Credit:
+Gerstein- Helped with the mine and crafting functions.
+Stack Overflow- Helped with the git repo.
