@@ -4,3 +4,6 @@ The game is based on the crafting system in Minecraft.  The game has blocks and 
 Credit:
 Gerstein- Helped with the mine and crafting functions.
 Stack Overflow- Helped with the git repo.
+
+Link to Flow chart:
+https://www.draw.io/?state=%7B%22ids%22:%5B%2215VOdyb65fzTIgQy_MmXsIKR1EPamdAvp%22%5D,%22action%22:%22open%22,%22userId%22:%22111661576002280040395%22%7D#G15VOdyb65fzTIgQy_MmXsIKR1EPamdAvp
