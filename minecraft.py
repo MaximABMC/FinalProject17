@@ -29,7 +29,6 @@ class Block(object):
 wood = Block("Wood", 0)
 stone = Block("Stone", 0)
 iron = Block("Iron Ingot", 0)
-gold = Block("Golden Ingot", 0)
 diamond = Block("Diamond", 0)
 """These resources you can aquire"""
 
@@ -73,6 +72,9 @@ def craft(pickaxe):
     if wood.amount >= pickaxe.wood_needed and stone.amount >= pickaxe.stone_needed and iron.amount >= pickaxe.iron_needed and diamond.amount >= pickaxe.diamond_needed:
         pickaxe.amount += 1
         wood.amount -= pickaxe.wood_needed
+        stone.amount -= pickaxe.stone_needed
+        iron.amount -= pickaxe.iron_needed
+        diamond.amount -= pickaxe.diamond_needed
         print(f'You crafted a {pickaxe.name}')
     else:
         print(f'You don\'t have enough of the correct resources to craft a {pickaxe.name}')
